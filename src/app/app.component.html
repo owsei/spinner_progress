@@ -1,8 +1,10 @@
 <br>
-<div [hidden]="!mostarSpinner">
+<div [hidden]="!mostarSpinner" style="height: 200px;">
     <table style="width: 100%;">
         <tr>
-            <!-- <td><mat-spinner strokeWidth="5" [diameter]="75" color="accent" title="Tooltip text here"></mat-spinner></td> -->
+            <td><mat-spinner strokeWidth="5" [diameter]="75" color="accent" title="Tooltip text here"></mat-spinner></td>
+        </tr>
+        <tr>
             <td> Cargando...<mat-progress-bar mode="indeterminate"></mat-progress-bar></td>
         </tr>
         <tr>
